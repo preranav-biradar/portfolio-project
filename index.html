@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/e0dccd025b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+    <div id="header">
+      <div class="container">
+       <nav>
+  <img src="screenshot2025-07-12183433.png" class="logo">
+  <ul id="sidemenu">
+    <li><a href="#header" onclick="closemenu()">Home</a></li>
+    <li><a href="#about" onclick="closemenu()">About</a></li>
+    <li><a href="#services" onclick="closemenu()">Services</a></li>
+    <li><a href="#certificates" onclick="closemenu()">Certificates</a></li>
+    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+    <i class="fa-solid fa-circle-xmark mobile-icon" onclick="closemenu()"></i>
+  </ul>
+  <i class="fa-solid fa-bars mobile-icon" onclick="openmenu()"></i>
+</nav>
+
+
+
+        <div class="header-text">
+<h1>Hello, I'm <span>Prerana Biradar</span></h1>
+
+  <p>FullStack Developer</p>
+  <p>Data Analyst</p>
+</div>
+      </div>
+
+      <!-- about -->
+     <div id="about">
+  <div class="container">
+    <div class="row">
+      
+      <div class="about-col-1">
+        <img src="prerana1-img.jpg" alt="Prerana Image">
+      </div>
+      
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>
+          Final-year E&TC Engineering Student | Aspiring Data Analyst & Full-Stack Developer.
+          Passionate about data analysis, problem-solving, and building impactful tech solutions.
+          Proficient in C++, Python, SQL, and MERN stack with hands-on experience in tools like
+          NumPy, Pandas, Matplotlib, and Seaborn.
+        </p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+          <p class="tab-links" onclick="opentab('Education')">Education</p>
+        </div>
+<div class="tab-contents active-tab" id="skills">
+ <ul>
+
+  <li><span>Web Development</span><br>Building responsive websites using HTML, CSS, JS</li>
+  <li><span>Data Analysis</span><br>Analyzing data using Python, Excel, Pandas</li>
+  <li><span>IoT Projects</span><br>Working with ESP8266, sensors & microcontrollers</li>
+  <li><span>React JS</span><br>Building dynamic frontend apps</li>
+  
+</ul>
+
+</div>
+<div class="tab-contents" id="Experience">
+ <ul>
+
+<li><span>Full-Stack Development</span><br>Built Desi Delights using Node.js, Express, MongoDB</li>
+<li><span>Authentication & Image Upload</span><br>Implemented login/signup and recipe image uploads</li>
+<li><span>Internship</span><br>Completed 6-week solo project under EY-GDS Edunet Foundation</li>
+
+</ul>
+
+</div>
+<div class="tab-contents" id="Education">
+ <ul>
+
+<li><span>2022-2026</span><br>Trinity College Of Engineering and Research,Pune</li>
+<li><span>2020-2022</span><br>Shivaji Mahavidyalaya ,Udgir</li>
+<li><span>2015-2020</span><br>Shymalal Memorial High School,Udgir</li>
+
+</ul>
+
+</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Services -->
+
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">What I Can Do</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Development</h2>
+        <p>I can build responsive and interactive websites using HTML, CSS, JavaScript, and React.</p>
+        <a href="#">learn more</a>
+      </div>
+      <div>
+        <i class="fas fa-chart-line"></i> 
+
+        <h2>Data Analysis</h2>
+        <p>I can clean, analyze, and visualize datasets using Python (Pandas, Matplotlib, Seaborn) and Excel.</p>
+        <a href="#">learn more</a>
+      </div>
+      <div>
+        <i class="fas fa-satellite-dish"></i>
+        <h2>IoT & Embedded Projects</h2>
+        <p>I’ve built working prototypes using ESP8266 and sensors, like a voice-controlled water dispenser.</p>
+        <a href="#">learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Certificates Section -->
+<div id="certificates">
+  <div class="container">
+    <h1 class="sub-title">Achievements & Certificates</h1>
+    <div class="certificates-gallery">
+
+      <div class="certificate-card">
+        <img src="c-certificate.jpg" alt="C Certificate">
+        <div class="layer">
+          <h3>C Programming Certificate</h3>
+          <p>Successfully completed a foundational course in C programming,
+             focusing on core concepts like variables, loops, arrays, functions, and memory management. Built small programs demonstrating problem-solving and logic building skills.</p>
+             <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+
+        
+      </div>
+
+      <div class="certificate-card">
+        <img src="cpp-certificate.jpg" alt="C++ Certificate">
+
+        <div class="layer">
+          <h3>C++ Programming Certificate</h3>
+          <p>Acquired in-depth knowledge of Object-Oriented Programming (OOP) using C++. Learned about classes, objects, inheritance, polymorphism, and file handling.
+             Developed practical coding skills for efficient software development.</p>
+             <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+
+      <div class="certificate-card">
+        <img src="cisco-pythoncertificate.jpg" alt="Python Certificate">
+        
+        <div class="layer">
+          <h3>Python Prohramming Certificate</h3>
+          <p>Gained hands-on experience with Python, covering data types, control flow, functions, 
+            and modules. Applied skills in real-world projects and explored libraries 
+            like NumPy and Pandas for basic data analysis tasks.</p>
+             <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+
+      <div class="certificate-card">
+        <img src="html-certificate.jpg" alt="HTML Certificate">
+        
+        <div class="layer">
+          <h3>HTML & Web Design Certificate</h3>
+          <p>Built static web pages using HTML and styled them with CSS. Learned the structure of web documents, semantic tags, and the basics of responsive design, 
+          laying the foundation for frontend development.</p>
+             <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+
+
+      <div class="certificate-card">
+        <img src="internship.png" alt="Internship Certificate">
+       
+        <div class="layer">
+          <h3>Internship Certificate (EY-GDS)</h3>
+          <p>Completed a 6-week solo full-stack internship project under Edunet Foundation & EY-GDS. 
+            Developed a recipe-sharing platform using Node.js, Express.js, MongoDB, and React, implementing authentication,
+             image upload, and feedback systems.</p>
+             <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+
+      <div class="certificate-card">
+        <img src="eassywriting.jpg" alt="Essay Writing">
+        
+        <div class="layer">
+          <h3>Essay Writing Certificate</h3>
+          <p>Recognized for outstanding creativity and expression in a general essay writing competition. 
+            Demonstrated strong communication skills and clarity of thought in written content.</p>
+             <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- contact -->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      
+    <div class="contact-left">
+      <h1 class="sub-title">Contact me</h1>
+      <p><i class="fa-solid fa-envelope"></i>preranabiradar6@gmail.com</p>
+      <p><i class="fa-solid fa-phone"></i>012345678</p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/prerana-biradar-a5643b267/"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://github.com/PreranaVBiradar"><i class="fa-brands fa-github"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <a href="preranaresume.pdf" download class="btn btn2">Download CV</a>
+    </div>
+    <div class="contact-right">
+      <form>
+        <input type="text" name="Name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+        <button type="submit" class="btn btn2">Submit</button>
+      </form>
+      <span id="msg"></span>
+
+    </div>
+
+
+    </div>
+  </div>
+
+  <div class="copyright">
+     <p>&copy;Prerana Biradar | Built with 💻 HTML, CSS & JavaScript | All Rights Reserved.</p>
+  </div>
+</div>
+
+  
+  <script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname) {
+    for (let tablink of tablinks) {
+      tablink.classList.remove("active-link");
+    }
+    for (let tabcontent of tabcontents) {
+      tabcontent.classList.remove("active-tab");
+    }
+    // Activate the clicked tab and show its content
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+<script>
+  var sidemen = document.getElementById("sidemenu");
+
+  function openmenu() {
+    sidemen.style.right = "0";
+    document.body.style.overflow = "hidden";
+  }
+
+  function closemenu() {
+    sidemen.style.right = "-100%";
+    document.body.style.overflow = "auto";
+  }
+</script>
+
+<script>
+  const form = document.querySelector("form");
+  const msg = document.getElementById("msg");
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevents page refresh
+
+    // Optional: you can reset the form after submission
+    form.reset();
+
+    // Show success message
+    msg.innerText = "Message Submitted!";
+    msg.style.color = "lightgreen";
+    msg.style.fontWeight = "bold";
+
+    // Hide message after 3 seconds
+    setTimeout(() => {
+      msg.innerText = "";
+    }, 3000);
+  });
+</script>
+
+
+</body>
+</html>
