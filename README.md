@@ -3,11 +3,6 @@
 Hi! I'm **Prerana Biradar**, an Electronics & Telecommunication Engineering student with a passion for creating modern, responsive, and user-friendly web experiences.  
 This portfolio is a reflection of my journey, achievements, and the skills I've acquired along the way.
 
-## 🌐 Live Website
-
-🔗 [Visit My Portfolio](https://preranavbiradar.github.io/Frontend_Portfolio)
-
-
 ## ✨ Highlights
 
 - ⚡ Fully responsive design — works on all devices
